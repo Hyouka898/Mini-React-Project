@@ -110,7 +110,7 @@
 /* sec-3-drink*/
 
 .drink-img {
-  /* border: 2px solid blue; */
+
   height: 300px;
   width: 100%;
   object-fit: cover;
@@ -124,22 +124,10 @@
 /* sec-4 */
 .career-image {
   width: 400px;
-  /* adjust to control the size */
   height: 400px;
   object-fit: cover;
   border-radius: 100%;
 }
-
-/* .sec-4-career {
-  background-color:#3d3d3d !important;
-  width: 100%;
-  height: 550px;
-  aspect-ratio: 3/2;
-  clip-path: ellipse(99% 100% at 50% 0%);
-
-} */
-/* HTML: <div class="curved-rectangle"></div> */
-/* HTML: <div class="rounded-edge"></div> */
 .sec-4-career {
   width: 100%;
   height: 550px;
@@ -166,6 +154,45 @@
   background-color:#365491;
   color: white;
 }
+/*  screen  */
+@media screen and (max-width:576px) {
+  
+ }
+/* sm */
+@media screen and (min-width:576px) {
+  
+  
+}
+/* md */
+@media screen and (min-width:768px) {
+ 
+  
+}
+/* lg*/
+@media screen and (min-width:992px) {
+  .banner {
+    width: 100%;
+    height: 500px;
+    aspect-ratio: 3/2;
+    clip-path: ellipse(99% 100% at 50% 0);
+    border: 3px solid red;
+  
+  }
+  
+}
+/* xl */
+@media screen and (min-width:1200px) {
+  .banner {
+    width: 100%;
+    height: 590px;
+    aspect-ratio: 3/2;
+    clip-path: ellipse(99% 100% at 50% 0);
+  
+  }
+  
+}
+
+/* Home page end  */
 
 /* footer */
 /* footer */
@@ -235,7 +262,7 @@ footer .socail-link i:hover {
 
 }
 
-/* Home page end */
+/* Footer end */
 /* Conntact Page start */
 
 .sec-1-contact {
@@ -251,19 +278,6 @@ footer .socail-link i:hover {
   width: 100%;
   height: 100%;
   /* background-color:rgba(255, 255, 255, 0.219); */
-}
-
-.sec-1-contact .input-form {
-  /* display: block;
-    height: 5px !important;
-    padding:10px;
-    width: 100%;
-    height: 10px; */
-  /* border: 2px solid blue; */
-  height: 10px !important;
-  background-color: #00000000;
-  color: #dcdcdc;
-
 }
 
 .sec-1-contact .input-form:focus {
@@ -289,6 +303,49 @@ footer .socail-link i:hover {
   color: #f1ebf5;
   background-color: #365491;
 }
+@media screen and (max-width:568px) {
+  .sec-1-contact{
+    width: 100%;
+    height:400px !important ;
+    
+  }
+}
+/* sm */
+@media screen and (min-width:568px) {
+  .sec-1-contact{
+    width: 100%;
+    height:450px !important ;
+    
+  }
+  
+}
+/* 
+md */
+@media screen and (min-width:768px) {
+  .sec-1-contact{
+    width: 100%;
+    height:450px !important ;
+    
+  }
+}
+/* lg */
+@media screen and (min-width:992px) {
+  .sec-1-contact{
+    width: 100%;
+    height:500px !important ;
+    
+  }
+}
+/* xl */
+@media screen and (min-width:1200px) {
+  .sec-1-contact{
+    width: 100%;
+    height:550px !important ;
+
+  }
+}
+
+/* contact end */
 
 /* route Login */
 
@@ -377,7 +434,7 @@ footer .socail-link i:hover {
 /* Deliver start */
 .sec-1-delivery {
   width: 100%;
-  height: 550px;
+  height:100%; 
   background-image: url('./assets/image/delivery-banner.jpg');
   background-position: center;
   background-size: cover;
@@ -405,6 +462,58 @@ footer .socail-link i:hover {
   color: white;
   background-color: #365491;
 }
+@media screen and (max-width:568px) {
+  .sec-1-delivery{
+    width: 100%;
+    height:300px !important ;
+    
+  }
+  .sec-1-delivery .delivery-title{
+    font-size: 20px !important;
+  }
+  .sec-1-delivery .delivery-input-title{
+    font-size: 15px !important;
+  }
+}
+/* sm */
+@media screen and (min-width:568px) {
+  .sec-1-delivery{
+    width: 100%;
+    height:300px !important ;
+    
+  }
+  
+}
+/* 
+md */
+@media screen and (min-width:768px) {
+  .sec-1-delivery{
+    width: 100%;
+    height:400px !important ;
+    
+  }
+  .sec-1-delivery .delivery-title{
+    font-size: 30px !important;
+  }
+  
+}
+/* lg */
+@media screen and (min-width:992px) {
+  .sec-1-delivery{
+    width: 100%;
+    height:450px !important ;
+    
+  }
+}
+/* xl */
+@media screen and (min-width:1200px) {
+  .sec-1-delivery{
+    width: 100%;
+    height:550px !important ;
+
+  }
+}
+
 
 /* delivery end */
 /* Munu start */
@@ -512,11 +621,14 @@ footer .socail-link i:hover {
   background-size: cover; */
 }
 .sec-1-about .pf-image {
-   width:380px!important;
-   height: 380px!important;
+   /* width:380px!important;
+   height: 380px!important; */
+   width:100% !important;
+    height: 100% !important;
    object-fit:cover !important;
    border-radius: 100% !important;
    transition: 0.4s ease-in-out all;
+   display: block !important;
    cursor: pointer;
 }
 .sec-1-about .pf-image:hover{
@@ -534,3 +646,52 @@ footer .socail-link i:hover {
 .sec-1-about .member-name{
   color:#365491;
 }
+@media screen and (max-width:576px) {
+  .sec-1-about .pf-image {    
+    width:350px!important;
+    height: 350px!important;
+ }
+ }
+/* sm */
+@media screen and (min-width:576px) {
+  .sec-1-about .pf-image {
+    width:350px!important;
+    height: 350px!important;
+    object-fit:cover !important;
+ }
+  
+}
+/* md */
+@media screen and (min-width:768px) {
+  .sec-1-about .pf-image {
+    width:300px!important;
+    height: 300px!important;
+    object-fit:cover !important;
+ }
+ .sec-1-about .row-about-us {
+  row-gap: 30px !important;
+}
+  
+}
+/* lg*/
+@media screen and (min-width:992px) {
+  .sec-1-about .pf-image {
+    width:100%  !important;
+    height: 100% !important;
+    object-fit:cover !important;
+ }
+ .sec-1-about .row-about-us {
+  row-gap: 100px !important;
+}
+  
+}
+/* xl */
+@media screen and (min-width:1200px) {
+  .sec-1-about .pf-image {
+    width:400px!important;
+    height: 400px!important;
+    object-fit:cover !important;
+ }
+  
+}
+/* about end */

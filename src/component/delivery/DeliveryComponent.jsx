@@ -1,39 +1,37 @@
-import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
 export function AppDeliveryComponent() {
     return (
         <main>
             <section className="sec-1-delivery " >
-            <Container className=' d-flex align-items-center justify-content-center h-100  '>
-                
-                    <div className=' '>
-                        <h1 className=' text-center text-light fw-medium mb-4 '>LET US COME TO YOU</h1>
-                        <h5 className=' text-center  text-secondary mb-4'>Enter your location to find who delivers LATTECODING in your area</h5>
-                        <div className=' pt-5'>
-                        <div className=' text-center w-100 d-flex justify-content-center align-items-center gap-3'>
-                            <form className=' text-center  w-50 '>
-                                <div class=" fs-6 text-center   ">
-                                    <Form.Group className="text-center w-100 " controlId="formGroupEmail">
-                                        <Form.Control className=' py-2 px-4 input-address  ' type="search" placeholder="Enter Address to search" />
-                                    </Form.Group>
+                <div className=' container w-100 d-flex align-items-center justify-content-center  h-100  '>
+                    <div className='  '>
+                        <div className=' w-100'>
+                            <h1 className='text-center text-light fw-medium mb-4 delivery-title '>LET US COME TO YOU</h1>
+                            <h5 className=' text-center  text-secondary mb-4 delivery-input-title'>Enter your location to find who delivers LATTECODING in your area</h5>
+                            <div className=''>
+                                <div className=' text-center w-100 d-flex justify-content-center align-items-center gap-3'>
+                                    <form className=' text-center  w-50 '>
+                                        <div class=" fs-6 text-center   ">
+                                            <Form.Group className="text-center w-100 " controlId="formGroupEmail">
+                                                <Form.Control className=' py-2 px-4 input-address  ' type="search" placeholder="Enter Address to search" />
+                                            </Form.Group>
+                                        </div>
+                                    </form>
+                                    <div>
+                                        <button className='btn btn-search py-1 px-3 '>Search</button>
+                                    </div>
                                 </div>
-                            </form>
-                            <div>
-                                <button className='btn btn-search py-1 px-3 '>Search</button>
                             </div>
                         </div>
                     </div>
-                    </div>
-                    
-                
-                
 
-                    
-                </Container>
+
+
+
+
+                </div>
             </section>
             <section class='sec-2-delivery my-5 fw-medium'>
                 <Container>

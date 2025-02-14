@@ -15,7 +15,8 @@ export default function AppHeader(props) {
         {/* <Navbar.Brand href="#home" className=' fs-5 text-light'>LatteCoding</Navbar.Brand> */}
         {/* <Navbar.Brand><Link to='/' className=' fs-5 text-light text-decoration-none fw-bold'>LATTECODING</Link></Navbar.Brand> */}
         <Navbar.Brand><Link to='/' className=' fs-5 text-light text-decoration-none fw-bold'>
-            <Image className=' border border-danger' style={{height:'90px'}} src={logo}/>
+            {/* <Image className=' border border-danger' style={{height:'90px'}} src={logo}/> */}
+            LATTECODING
         </Link></Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="">
